@@ -2,9 +2,10 @@
 
 ## What this script does
 
-`tests/test_playwright_test_script.py` is an end-to-end test of the
-TodoMVC demo app (https://demo.playwright.dev/todomvc). It exercises a
-full item lifecycle:
+`tests/test_playwright_test_script.py` is an end-to-end test script 
+written in Python for Playwright of the TodoMVC demo app 
+(https://demo.playwright.dev/todomvc). It exercises a full item 
+lifecycle:
 
 1. Opens the TodoMVC page and verifies it loaded (checks for the "todos" heading).
 2. Adds a "Get milk" item via the textbox + Enter key, and verifies it appears.
@@ -19,6 +20,8 @@ Concepts demonstrated: navigation, role/text/XPath locators, keyboard input,
 checkboxes, auto-retrying `expect` assertions, and filter-state verification.
 
 ## Prerequisites
+
+Python must be installed (it can be installed as extension in VS Code IDE).
 
 ```bash
 # inside the project folder, with the virtual environment active
